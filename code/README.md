@@ -26,10 +26,10 @@ The necessary packages needed to run this program should automatically be picked
 ### Running tests
 
 To test whether the program will work from your machine:
- 
+
  * Ensure the `config.ini` file has the test environment set to `live`
  * Click the `Terminal` icon which can be found on the menu in the bottom left of Pycharm.
-* Ensure you're in the root path of the project and type `python -m pytest tests/`
+* Ensure you're in the root path of the project and type `python3 -m pytest tests/`
 
 This should execute the tests if any fail you may have issues with this program.
 
@@ -41,4 +41,4 @@ Follow the instructions to download via the various options given.
 # Next steps
 * Adding a job details search option (essentially be able to search for a specific role and return the details in a CSV)
 * create a connected database for full deployment
-* Build a scheduler as part of a full deployment to poll and add to the database 
+* Build a scheduler as part of a full deployment to poll and add to the database
