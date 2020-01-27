@@ -21,8 +21,6 @@ package ["python3.6", "python3-pip"]
 #   action :create
 # end
 
-# Ensures pytest has write permission to path of Downloads folder
-
 # directory '/' do
 #   action :create
 #   mode '0777'
@@ -63,3 +61,10 @@ end
 directory '/home/ubuntu/code/' do
   action :delete
 end
+
+# directory '/home/ubuntu/Downloads' do
+#   owner 'root'
+#   group 'root'
+#   mode '0777'
+#   action :create
+# end
