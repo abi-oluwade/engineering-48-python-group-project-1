@@ -62,9 +62,9 @@ directory '/home/ubuntu/code/' do
   action :delete
 end
 
-directory '/home/ubuntu/Downloads' do
-  owner 'root'
-  group 'root'
-  mode '0777'
-  action :create
-end
+# directory '/home/ubuntu/Downloads' do
+#   owner 'root'
+#   group 'root'
+#   mode '0777'
+#   action :create
+# end
