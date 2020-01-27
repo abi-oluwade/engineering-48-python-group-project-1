@@ -4,7 +4,7 @@
     "aws_secret_key": "{{env `AWS_SECRET_KEY_ID`}}"
   },
   "builders": [{
-    "ami_name": "joseph-pontin-python-test-{{timestamp}}",
+    "ami_name": "Abiodun-Oluwade-Python-TestEnv-{{timestamp}}",
 
     "type": "amazon-ebs",
     "access_key": "{{user `aws_access_key`}}",
@@ -12,8 +12,8 @@
 
     "subnet_id": "subnet-05f17c9de25b45b3a",
     "associate_public_ip_address": "true",
-    "ssh_keypair_name": "joseph-eng-48-first-key",
-    "ssh_private_key_file": "~/.ssh/joseph-eng-48-first-key.pem",
+    "ssh_keypair_name": "Abiodun-Oluwade-eng-48-first-key",
+    "ssh_private_key_file": "~/.ssh/Abiodun-Oluwade-eng-48-first-key.pem",
 
     "region": "eu-west-1",
     "source_ami_filter": {
